@@ -8,19 +8,19 @@ import { Typography, Card, CardBody } from "@material-tailwind/react";
 const OPTIONS = [
   {
     title: "100",
-    description: "Learning Courses",
+    description: "Ahlat qayta ishlash joylari",
   },
   {
     title: "500+",
-    description: "Expert Instructors",
+    description: "Operatorlar",
   },
   {
     title: "24/7",
-    description: "Support",
+    description: "Yordam",
   },
   {
-    title: "5/5",
-    description: "Review Stars",
+    title: "",
+    description: "Ozingizning ahlat qayta ishlash senterni oching",
   },
 ];
 
@@ -37,13 +37,13 @@ export function MobileConvenience() {
         />
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
           <Typography variant="h2" color="blue-gray" className="mb-4">
-            Mobile Convenience
+            Mobile platforma
           </Typography>
           <Typography
             variant="lead"
             className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0  "
           >
-            Access your learning materials on the go.
+            telefondan ahlat qayta ishlash joylarini toping
           </Typography>
 
           <div className="col-span-2 grid gap-5 grid-cols-2 ">
